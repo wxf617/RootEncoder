@@ -34,6 +34,10 @@ android {
 }
 
 dependencies {
+  implementation 'com.github.pedroSG94.RootEncoder:library:2.6.1'
+  //Optional, allow use CameraXSource and CameraUvcSource 
+  implementation 'com.github.pedroSG94.RootEncoder:extra-sources:2.6.1'
+  classpath 'com.android.tools.build:gradle:8.3.0'
   implementation(project(":library"))
   implementation(project(":extra-sources"))
   implementation(libs.androidx.constraintlayout)
@@ -49,4 +53,5 @@ dependencies {
   implementation 'com.github.pedroSG94.RootEncoder:library:2.6.1'
   //Optional, allow use CameraXSource and CameraUvcSource 
   implementation 'com.github.pedroSG94.RootEncoder:extra-sources:2.6.1'
+  classpath 'com.android.tools.build:gradle:8.3.0'
 }
